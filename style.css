@@ -1,0 +1,305 @@
+/*header*/
+.header{
+	background:url(a.jpg);
+	
+
+}
+/*.logo{
+	background-color: solid blue;
+	width: 180px;
+	height: 80px;
+	border-radius: 100%;
+	padding:10px;
+}*/
+
+
+nav{
+	
+
+	
+	font-weight: bolder;
+
+}
+
+nav h7{
+
+	font-weight: bolder;
+	font-size: 32px;
+	
+}
+nav ul{
+	font-size: 20px;
+	list-style: none;
+}
+nav li{
+float: right;
+	position: relative;
+	display:inline-block;
+padding-right: 40px;
+margin-left: 50px;
+}
+
+nav a{
+
+color: black;
+text-decoration: none;
+/*
+text-transform: uppercase;*/
+font-size:20px;
+}
+
+nav a:hover{
+	color:blue;
+}
+
+nav a ::before{
+	content: '';
+	display: black;
+	height:5px;
+	width:100%;
+	background-color: #444;
+	position: absolute;
+
+	top: 0;
+	width:0%;
+}
+nav a:hover::before{
+	width:100%;
+	transition: all ease-in-out 250ms;
+}
+
+/*main*/
+.main{
+background: url("a.jpg");
+padding:500px;
+margin-top: -19.9px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+/*  -----Footer------*/
+
+.wrapper{
+	margin:auto;
+	/*
+	background: green;*/
+
+	
+
+}
+.wrapper h2{
+	font-family: sans-serif;
+	font-size: 52px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.team{
+	text-align: center;
+	width: auto;
+	justify-content: center;
+
+}
+.team .team_member{
+
+	margin:5px;
+	margin-bottom:50px;
+	width:300px;
+	padding: 20px;
+	line-height: 20px;
+	color: black;
+	position:relative;
+	text-align: center;
+}
+
+.team .team_member h3{
+color: black;
+font-size: 26px;
+text-align:justify-all;
+
+}
+
+
+.team .team_member ul{
+
+	margin-left: 40px;
+	margin-right: -340px;
+	margin-top:-150px;
+	float:right;
+	padding-right:-250px;
+	list-style: none;
+	
+	
+
+}
+
+
+.team .team_member p.role{
+	color: black;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin:12px 0px;
+
+}
+	
+.team_img img{
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 150%;
+
+}
+.Portifolio h1{
+	font-weight: bold;
+	font-size: 40px;
+
+
+}
+.Portifolio img{
+	transition: 1s;
+	padding:15px;
+	width:350px;
+
+}
+.Portifolio img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+
+
+
+/*beging og gallery css code*/
+.gallery{
+	margin:0;
+
+}
+
+.gallery h6{
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: -20px;
+	}
+.gallery img{
+	transition: 1s;
+	padding:15px;
+	width:150px;
+
+}
+.gallery img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+/*End*/
+
+/*beginning css for the contact form*/
+.contact-title{
+margin: 10px 50px; 
+width: 50%;
+height: 100%;
+text-align: center;
+/*--background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5), url(image8.jpg));
+*/
+background-image: url(2.jpg);
+text-transform: uppercase;
+color:black;
+transition: all 4s ease-in-out;
+border: solid gray;
+
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 60px;
+
+}
+.contact-title h2{
+	font-size: 16px;
+
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	float: left;
+	
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color:black;
+	font-size: 20px;
+	margin-bottom: 16px;
+
+}
+
+input{
+	height:45px;
+}
+.form-control-send{
+	background-color:#ff5722;
+	border-color: transparent;
+	color:black;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height:40px;
+	width: 80px;
+	margin-top:20px;
+
+
+}
+.form-control-send:hover{
+	background-color: blue;
+	cursor: pointer;
+
+}
+/*End of contact form*/
+
+
+.contact-information{
+	margin-left: 30px;
+	margin-top:-650px;
+	float: right;
+	padding-right:150px;
+	border: solid gray;
+	border-top: 20px;
+	background-color: gray;
+	border-width: 20px
+
+}
+
+
+
+.contact-information h3{
+	text-align: left;
+font-size: 36px;
+
+}
+.contact-information h4{
+	font-size: 16px;
+}
+
+.contact-information h5{
+	font-size: 25px;
+}
+.contact-information .j1{
+	font-size: 16px;
+}
+
+
+.copyright{
+	padding-top: 20px;
+}
